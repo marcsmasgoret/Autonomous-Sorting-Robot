@@ -5,14 +5,14 @@ The objective of this project is to design and develop a fully autonomous mobile
 
 **2. Design Requirements & Constraints:**
 
-The design requirements were developed to ensure that both the mobile robot and the stationary sorting system operate effectively within the given project constraints. The system integrates navigation, collection, and sorting subsystems, each with specific performance targets. Key requirements such as autonomous operation, reliable navigation using an IMU, and accurate color-based sorting guided the selection of components and overall system architecture. Feasibility of the design was validated through iterative prototyping and testing. Mechanical adjustments, including improved scoop clearance and weight reduction, enhanced system performance and reduced actuator load. Additionally, the use of a stationary sorting system improved classification reliability by providing controlled sensing conditions. Overall, the design meets the functional requirements within the constraints of time, power, and system complexity. Key quantitative constraints include a maximum operation time of 120 seconds, operation within a ~15 m² arena, and achieving a sorting accuracy target of at least 90%. [Design Requirements Table.xlsx](https://github.com/user-attachments/files/26483405/Design.Requirements.Table.xlsx)
+The design requirements were developed to ensure that both the mobile robot and the stationary sorting system operate effectively within the given project constraints. The system integrates navigation, collection, and sorting subsystems, each with specific performance targets. Key requirements such as autonomous operation, reliable navigation using an IMU, and accurate color-based sorting guided the selection of components and overall system architecture. Feasibility of the design was validated through iterative prototyping and testing. Mechanical adjustments, including improved scoop clearance and weight reduction, enhanced system performance and reduced actuator load. Additionally, the use of a stationary sorting system improved classification reliability by providing controlled sensing conditions. Overall, the design meets the functional requirements within the constraints of time, power, and system complexity. Key quantitative constraints include a maximum operation time of 120 seconds, operation within a ~15 m² arena, and achieving a sorting accuracy target of at least 90%. [Design Requirements Table.xlsx](readme-assets/Design-Requirements-Table.xlsx)
 
 
 
 **3. Program Plan:**
 
 The project was completed over an eight-week period, following a structured and iterative development process. The timeline began with concept generation and selection, followed by mechanical design and CAD modeling of the chassis and scoop system. Prototype fabrication using 3D printing was then carried out, enabling initial testing of the drive, collection, and sorting subsystems. Testing played a critical role in identifying performance limitations, particularly in the scoop mechanism and object handling process. These issues led to a second design iteration, where mechanical refinements such as improved clearances and weight reduction were implemented. Programming and sensor integration were conducted concurrently with testing, reflecting the iterative nature of the development process. The critical path of the project included CAD modeling, prototype fabrication, and system testing, as delays in these stages directly impacted subsequent development. Overlapping tasks, such as programming and system testing, allowed for continuous refinement and improved overall efficiency. The project timeline also accounted for potential schedule variations and risks. Mechanical issues encountered during the initial prototype required redesign and reprinting, which introduced delays. To mitigate this, buffer time was effectively incorporated within the testing and iteration phases, allowing adjustments to be made without significantly affecting the final deadline. This ensured that system integration, final testing, and documentation were completed in time for the final showcase.
-[Weekly Gantt Chart.xlsx](https://github.com/user-attachments/files/26482796/Weekly.Gantt.Chart.xlsx)
+[Weekly Gantt Chart.xlsx](readme-assets/Weekly-Gantt-Chart.xlsx)
 
 
 **4. Concept Generation:**
@@ -39,11 +39,11 @@ The generated concepts were evaluated using structured engineering decision-maki
 
 *TABLE 1:* Go/No-Go 
 
-<img width="802" height="374" alt="Go-NoGo Table" src="https://github.com/user-attachments/assets/0b959545-88e5-43a3-aaa8-969707f73308" />
+<img width="802" height="374" alt="Go-NoGo Table" src="readme-assets/go-no-go-table.png" />
 
 *TABLE 2:* Weighted decision matrix comparing Concepts A, B, and C:
 
-<img width="810" height="271" alt="Screenshot 2026-04-07 at 11 14 16 AM" src="https://github.com/user-attachments/assets/82ee2936-8d0d-41bb-a045-9266c674ea22" />
+<img width="810" height="271" alt="Screenshot 2026-04-07 at 11 14 16 AM" src="readme-assets/weighted-decision-matrix.png" />
 
 **6. Detail Design Development:**
 
@@ -52,23 +52,23 @@ The selected design was refined into a fully detailed system through iterative m
 *FIGURE 1:* Annotated SolidWorks top-view assembly drawing of the final scavenger robot:
 
 
-<img width="286" height="370" alt="image" src="https://github.com/user-attachments/assets/be150959-9e35-40f0-961d-bb8b12127d5a" />
+<img width="286" height="370" alt="image" src="readme-assets/figure1-solidworks-assembly.png" />
 
 *FIGURE 2:* Scoop mechanism design evolution:
 
 
-<img width="378" height="135" alt="image" src="https://github.com/user-attachments/assets/cacf21c3-136b-40b9-8a56-0c7ca00fb1f8" />
+<img width="378" height="135" alt="image" src="readme-assets/figure2-scoop-evolution.png" />
 
 
 *FIGURE 3:* Sorting System Final Design:
 
 
-<img width="200" height="168" alt="image" src="https://github.com/user-attachments/assets/60ca37e5-460d-484a-9fbd-8996a1507ca0" />
+<img width="200" height="168" alt="image" src="readme-assets/figure3-sorting-system.png" />
 
 *FIGURE 4:* System block diagram of the complete autonomous scavenger system:
 
 
-<img width="316" height="231" alt="image" src="https://github.com/user-attachments/assets/e1fa9d25-a229-4a36-97cb-5aebec4080f2" />
+<img width="316" height="231" alt="image" src="readme-assets/figure4-block-diagram.png" />
 
 
 **7. Design Analysis:**
@@ -78,12 +78,12 @@ The performance of the final design was evaluated through a combination of exper
 *FIGURE 5:* Calibration Table: The calibration data used to determine detection thresholds and validate color classification performance 
 
 
-<img width="468" height="114" alt="image" src="https://github.com/user-attachments/assets/0c8c1bd7-433a-4821-802c-14c1a6817468" />
+<img width="468" height="114" alt="image" src="readme-assets/figure5-calibration-table.png" />
 
 *FIGURE 6:* Integrated full-system validation results: The integrated system performance results, including sorting accuracy and overall operation time
 
 
-<img width="636" height="637" alt="image" src="https://github.com/user-attachments/assets/5efbfcf1-c1c1-4e35-ae69-f1d66ad0f16f" />
+<img width="636" height="637" alt="image" src="readme-assets/figure6-validation-results.png" />
 
 
 The results are considered valid within the tested conditions, as consistent measurements were obtained across repeated trials under controlled environmental conditions. These findings indicate that the selected design is highly effective for sorting tasks, which is the primary objective of the system. However, the moderate confidence in navigation accuracy suggests that positional errors may affect consistency in more complex environments.
@@ -96,9 +96,9 @@ Detailed mechanical design documentation was developed to fully define the final
 
 The complete set of mechanical design files is available in the following repository:
 
-- [Engineering Drawings](https://github.com/MSE2202/2026-project-pdf-team-003-1/tree/main/Final%20CADs%20and%20Drawings/Engineering%20Drawings)  
-- [Scavenger Robot CAD Models](https://github.com/MSE2202/2026-project-pdf-team-003-1/tree/main/Final%20CADs%20and%20Drawings/Scavenger%20CADs)  
-- [Sorting System CAD Models](https://github.com/MSE2202/2026-project-pdf-team-003-1/tree/main/Final%20CADs%20and%20Drawings/Sorter%20CADs)
+- [Engineering Drawings](Final%20CADs%20and%20Drawings/Engineering%20Drawings)  
+- [Scavenger Robot CAD Models](Final%20CADs%20and%20Drawings/Scavenger%20CADs)  
+- [Sorting System CAD Models](Final%20CADs%20and%20Drawings/Sorter%20CADs)
 
 
 **9. Design Documentation — Electrical:**
@@ -106,11 +106,11 @@ The complete set of mechanical design files is available in the following reposi
 The electrical design documentation defines the complete sensing, actuation, and control architecture of the system. This includes all electronic components, wiring configurations, and signal interfaces required for the operation of both the scavenger robot and the stationary sorting system. The system integrates multiple electronic components, including DC motors for drivetrain and brush actuation, servo motors for scoop and chute movement, an IMU for heading control, ultrasonic sensors for positioning, and a color sensor for object classification. These components are coordinated through a microcontroller-based control system to enable fully autonomous operation. Detailed wiring diagrams and circuit schematics were developed to ensure proper connectivity, power distribution, and signal integrity across all subsystems. Component selection was based on compatibility, performance requirements, and ease of integration within the overall system. Special consideration was given to voltage regulation, current limits, and reliable communication between sensors and actuators. The electrical design follows standard engineering practices, including clear labeling of components, organized wiring layouts, and modular subsystem integration. Consideration was also given to practical implementation constraints such as wiring management, noise reduction, and system reliability during operation.
 
 The complete set of electrical design files is available in the following repository:
-- [Control System Code](https://github.com/MSE2202/2026-project-pdf-team-003-1/tree/main/Final%20Code%20and%20Electrical/Code)
-- [Electrical References and Component Documentation](https://github.com/MSE2202/2026-project-pdf-team-003-1/tree/main/Final%20Code%20and%20Electrical/Electrical%20References)
+- [Control System Code](Final%20Code%20and%20Electrical/Code)
+- [Electrical References and Component Documentation](Final%20Code%20and%20Electrical/Electrical%20References)
 
 
-The bill of materials (BOM) provides a complete list of all mechanical and electrical components used in the system: [Lab 003 Team 1-BOM.xlsx](https://github.com/user-attachments/files/26588690/Lab.003.Team.1-BOM.xlsx)
+The bill of materials (BOM) provides a complete list of all mechanical and electrical components used in the system: [Lab 003 Team 1-BOM.xlsx](readme-assets/BOM.xlsx)
 
 
 **10. Product Evaluation Results:**
